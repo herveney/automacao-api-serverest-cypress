@@ -26,4 +26,4 @@ jobs:
         run: npm test
         env:
           CI: true
-          CYPRESS_baseUrl: https://serverest.dev/#/
+          CYPRESS_baseUrl: https://serverest.dev
