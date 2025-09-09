@@ -1,10 +1,10 @@
 name: CI
 
-on: 
+on:
   push:
-    branches: [ main ]
+    branches: [main]
   pull_request:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   api-tests:
@@ -16,8 +16,8 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
-          cache: 'npm'
+          node-version: "20"
+          cache: "npm"
 
       - name: Install deps
         run: npm ci
@@ -26,4 +26,4 @@ jobs:
         run: npm test
         env:
           CI: true
-          CYPRESS_baseUrl: http://localhost:3000
+          CYPRESS_baseUrl: https://serverest.dev/#/
