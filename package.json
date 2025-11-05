@@ -1,5 +1,5 @@
 {
-  "name": "cypress-saucedemo-api",
+  "name": "cypress-serverest-api",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,6 @@
   "description": "",
   "devDependencies": {
     "chai": "^6.0.1",
-    "cypress": "^15.0.0"
+    "cypress": "^15.6.0"
   }
 }
